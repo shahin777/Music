@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="widthDialog">280dp</dimen>
+    <dimen name="TitleTextSizeDialog">15sp</dimen>
+    <dimen name="textSizeDialog">13sp</dimen>
+    <dimen name="textSize">12sp</dimen>
+</resources>

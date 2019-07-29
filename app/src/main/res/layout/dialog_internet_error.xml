@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="@dimen/widthDialog"
+              android:layout_height="wrap_content"
+              android:gravity="center">
+
+  <LinearLayout
+    android:layout_width="@dimen/widthDialog"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="16dp"
+      android:tint="@color/colorPrimaryDark"
+      android:src="@drawable/connection_error"/>
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/connectionErrorTitle"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/TitleTextSizeDialog"
+        android:textStyle="bold"/>
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/connectionError"
+        android:textColor="@color/colorGray"
+        android:lineSpacingExtra="8dp"
+        android:textSize="@dimen/textSizeDialog"
+        android:textStyle="bold"/>
+
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:src="@color/colorGray"
+      android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:orientation="horizontal">
+
+      <TextView
+        android:id="@+id/txtCancel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/exit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/textSizeDialog"
+        android:textStyle="bold"/>
+
+      <ImageView
+        android:layout_width="1dp"
+        android:layout_height="48dp"
+        android:src="@color/colorGray"/>
+
+      <TextView
+        android:id="@+id/txtTryAgain"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/tryAgain"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSizeDialog"
+        android:textStyle="bold"/>
+    </LinearLayout>
+  </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="txtIso">iso: </string>
+    <string name="txtName">name: </string>
+    <string name="txtPhone">phone: </string>
+    <string name="connectionErrorTitle">عدم اتصال به اینترنت</string>
+    <string name="connectionError">اتصال شما به اینترنت برقرار نیست. برای استفاده از این سرویس به اینترنت متصل شوید.</string>
+    <string name="tryAgain">تلاش مجدد</string>
+    <string name="exit">خروج</string>
+</resources>
